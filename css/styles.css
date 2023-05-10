@@ -59,7 +59,6 @@ ul      {
         line-height: 1.2;
         letter-spacing: 0.03em;   
         color: #000000;
-        width: 145px;
         margin-right: 93px;
         padding-top: 24px;
         padding-bottom: 25px;
@@ -68,7 +67,7 @@ ul      {
 
 .header .web {
         color: var(--accent-color);
-        width: ;
+        
 }
 .nav {
         display: inline-block;
@@ -107,12 +106,12 @@ ul      {
 .site-nav-link:hover { color: var(--accent-color) ;}
 
 .auth-nav {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;       
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
 }
-.auth-nav .item {
-        /* display: inline-block; */
+.auth-nav.item {
+                display:block;                
 }
 .auth-nav .item + .item{
         margin-left: 40px;
@@ -126,7 +125,7 @@ ul      {
                 padding-bottom: 32px;
                 padding-top: 32px;
                 letter-spacing: 0.02em;
-                display: inline-block;
+                
 }
 
 .auth-nav-link:hover,
