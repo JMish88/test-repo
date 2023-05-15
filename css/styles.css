@@ -18,7 +18,7 @@ body {
 .list { list-style: none; 
         text-decoration: none;
 }
-
+ 
 h1,
 h2,
 h3,
@@ -70,7 +70,7 @@ ul      {
         
 }
 .nav {
-        display: inline-block;
+        display: flex;
 }
 .site-nav {
         display: flex;
@@ -84,7 +84,7 @@ ul      {
         line-height: 1.14; 
         padding-bottom: 32px;
         padding-top: 32px; 
-        display: inline-block;
+        /* display: inline-block; */
 }
 
 .site-nav .item + .item{
@@ -106,12 +106,13 @@ ul      {
 .site-nav-link:hover { color: var(--accent-color) ;}
 
 .auth-nav {
-                display: flex;
+                display: inline-flex;
                 justify-content: flex-end;
-                align-items: center;
+                align-items: center;    
+                margin-left: 354px;            
 }
 .auth-nav.item {
-                display:block;                
+                /* display:block;                 */
 }
 .auth-nav .item + .item{
         margin-left: 40px;
