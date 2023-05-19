@@ -345,20 +345,26 @@ ul      {
 
             /* portfolio*/
 
-.buttons {
+.buttons-list {
         display: flex;
-        margin-bottom: 50px;
         justify-content:center;  
-        border-color: #F5F4FA;
-        border-radius: 4px;;              
+        background: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 50px;
 }
-.buttons li { 
-                
-                border-color: transparent;}
-.buttons li:not(:first-child) {margin-left: 8px;
+.buttons { 
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;        
+        text-align: center;
+        letter-spacing: 0.03em;        
+        color: var(--primary-text-color);                
+ }
+.buttons-list:not(:first-child) {margin-left: 8px;
                 }
 
-.main-button {
+.main-button,
+.button {
         font-weight: 500;
                 font-size: 16px;
                 line-height: 1.62;        
