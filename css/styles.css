@@ -278,54 +278,63 @@ ul      {
 
             /*footer*/
 
-.footer-section {background-color: #2F303A;
-                }
+.footer-section {
+        background-color: #2F303A;
+}
 
 
-.footer-section .logo {font-family: Raleway;
-                        font-weight: 700;
-                        font-size: 26px;
-                        line-height: 1.19;
-                        letter-spacing: 0.03em;
-                        
-                        padding-top: 60px;
-                        margin-bottom: 20px;
+.footer-section .logo {
+        display: block;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color: #ffffff;
+        padding-top: 60px;
+        margin-bottom: 28px;
         }
 
-.footer-section .web {color: var(--accent-color);}
-.footer-section .studio { color: var(--secondary-text-color);}
+.footer-section .web {
+        color: var(--accent-color);
+}
 
-.logo {display: block;        
-        }
-
-.address-list  { display: block;
+/* .address-list  { display: block;
                 margin-top: 0px;        
-                padding-left: 0px;}
+                padding-left: 0px;} */
 
-.address-list .address {display: block;
-        margin-bottom: 9px;
-        color: var(--secondary-text-color);
+.address-list .address{
+        display: block;
+        margin-bottom: 12px;
         font-family: inherit;
         font-style: normal;
-        text-decoration: none;
         font-weight: 400;
         font-size: 14px;
-        line-height: 1.71px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        color: #ffffff;
 }
 
 .mail,
-.telephone {font-family: inherit;
-                font-style:normal;
-                text-decoration: none;
-                        color: rgba(255, 255, 255, 0.6);
-                        font-size: 14px;
-                        line-height: 1.71;
-                        }
+.telephone {
+        display: block;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
 
-.address-list .mail {  margin-bottom: 9px; display: block;  }
+.address-list .mail {  
+        margin-bottom: 12px; 
+  }
 
-.address-list .telephone { display: block;
-             padding-bottom: 60px;}
+.address-list .telephone { 
+             padding-bottom: 60px;
+        }
                         
 
 
@@ -336,12 +345,12 @@ ul      {
 
             /* portfolio*/
 
-.buttons {display: flex;
-                padding-top: 94px;
-                margin-top: 0px;
-                margin-bottom: 50px;
-                justify-content:center;
-                
+.buttons {
+        display: flex;
+        margin-bottom: 50px;
+        justify-content:center;  
+        border-color: #F5F4FA;
+        border-radius: 4px;;              
 }
 .buttons li { 
                 
@@ -350,17 +359,12 @@ ul      {
                 }
 
 .main-button {
-        background-color: #F5F4FA;
-        color: var(--primary-text-color);
-        font-family: Roboto;
-        font-style: normal;
         font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        text-align: center;
-        border: 1px;
-        border-radius: 4px;
-        padding: 6px 22px;}
+                font-size: 16px;
+                line-height: 1.62;        
+                text-align: center;
+                letter-spacing: 0.03em;        
+                color: var(--primary-text-color);}
 .main-button:hover,
 .main-button:focus { background-color: var(--accent-color); 
                         color: var(--secondary-text-color);}
