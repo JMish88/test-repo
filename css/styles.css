@@ -34,7 +34,7 @@ ul      {
 .section {
         padding: 94px 0px;
         margin: 0px;
-        outline: 2px solid tomato;
+        /* outline: 2px solid tomato; */
 }
 
 .container {    
@@ -85,7 +85,8 @@ ul      {
         margin-left: 50px;
 }
 
-.site-nav-link {    
+.site-nav-link {   
+        color: var(--primary-text-color); 
                 font-weight: 500;
                 font-size: 14px;
                 line-height: 1.14;
@@ -196,6 +197,10 @@ ul      {
     
             /*what we do*/
 
+            .work-section {
+                padding-top: 0;
+            }
+
 .work-title {           
         font-weight: 700;
         font-size: 36px;
@@ -209,13 +214,10 @@ ul      {
         justify-content: space-between;               
 }
 
-.work-list li {
-        margin-bottom: 94px;
-}
 
 .work-list li:not(:first-child) {
                 margin-left: 30px;
-                }
+}
 
              /*our team*/
 
@@ -367,7 +369,7 @@ ul      {
         border-radius: 4px;
         background-color: #F5F4FA;
  }
- .selected,
+ .button-list .selected,
  .button-list .link:hover,
  .button-list .link:focus  {
         background-color:var(--accent-color);
@@ -377,27 +379,23 @@ ul      {
 
 .our-projects {
          display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap;    
+        flex-basis: calc((100% - 90px) / 3);
+        justify-content: space-between;
         /* margin-left: -30px;
         margin-top: -30px;   */
 }
 .our-projects .item {
-        display: flex;
-        flex-wrap: wrap;
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+        margin-bottom: 30px;
         /* margin-left: 30px ;
         margin-top: 30px; */
-        flex-basis: calc((100% - 90px) / 3); 
+        
 }    
 .our-projects .item:nth-last-child(-n + 3) {
-        margin-bottom: 94px;
+        margin-bottom: 0;
 }
-.item .cards {
-        display: inline-block;
-        border-right: 1px solid #eeeeee;
-        border-bottom: 1px solid #eeeeee;
-        border-left: 1px solid #eeeeee;
-        background: #FFFFFF;
- }
 .item .title { 
         font-weight: 700;
         font-size: 18px;
